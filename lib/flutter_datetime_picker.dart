@@ -518,9 +518,11 @@ class _DatePickerState extends State<_DatePickerComponent> {
           ),
           Container(
               height: theme.titleHeight,
-              child: Text(
-                '$title',
-                style: const TextStyle(color: Colors.black87, fontSize: 16),
+              child: Center(
+                child: Text(
+                  '$title',
+                  style: const TextStyle(color: Colors.black87, fontSize: 16),
+                ),
               )),
           Container(
             height: theme.titleHeight,
